@@ -34,7 +34,7 @@ então percorrer esse grafo com uma GNN e deficir se o cérebro pertence a um ad
 # Requisitos e instruções 
 *1. Versão do Python*
   Recomendado: Python >= 3.8 (algumas bibliotecas podem não funcionar com versões mais antigas)
-<br/>*2. Bibliotecas Necessárias*
+<br/><br/>*2. Bibliotecas Necessárias*
   Abaixo está a lista das bibliotecas utilizadas no código e suas versões recomendadas :
  - torch >=1.10 Deep learning com PyTorch
  - torchvision >=0.11 Pode ser necessário indiretamente
@@ -47,7 +47,7 @@ então percorrer esse grafo com uma GNN e deficir se o cérebro pertence a um ad
  - pandas >=1.3 Leitura/escrita de CSV ( labels.csv )
  - scikit-learn >=1.0 Pode ser usado indiretamente por Nilearn
  - scipy >=1.7 Usado pelo Nilearn
-<br/>*3. Instalação das Dependências*
+<br/><br/>*3. Instalação das Dependências*
 Você pode instalar as dependências com os seguintes comandos:
   #Instale o PyTorch conforme sua GPU/CPU:<br/>
   #Para CPU:<br/>
@@ -68,7 +68,7 @@ dataset/
 Tome cuidado com qualqer redundância ou adapte o código.
  - Dados Neuroimaging
 O código usa nilearn e um atlas. Esses datasets são baixados automaticamente na primeira execução, portanto exigem conexão com internet.
-<br/>*5. Compatibilidade com GPU (Opcional)*
+<br/><br/>*5. Compatibilidade com GPU (Opcional)*
  - Ter uma placa NVIDIA compatível com CUDA.
  - Instalar versão CUDA do PyTorch.
  - Verificar compatibilidade entre versões do PyTorch, PyG e CU
