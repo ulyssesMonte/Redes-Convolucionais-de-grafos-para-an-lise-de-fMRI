@@ -24,7 +24,12 @@ Utiliza majoritariamente funções das bibliotecas:
  - TQDM;
  - Pandas.
 
-#Principais funcionalidades
+# Principal funcionalidade
+Fazer a leitura de dados referentes as atividades cerebrais de alguém e a partir disso montar um grafo
+<img width="138" height="67" alt="image" src="https://github.com/user-attachments/assets/94cf2977-7081-425a-b8e8-9688ac3e31ab" /> -> <img width="118" height="166" alt="image" src="https://github.com/user-attachments/assets/54bb5d55-4f8a-43b7-b129-db4aee200221" /><br/>
+então percorrer esse grafo com uma GNN e deficir se o cérebro pertence a um adulto ou uma criança
+
+
 
 # Requisitos e instruções 
 *1. Versão do Python*
@@ -68,3 +73,9 @@ O código usa nilearn e um atlas. Esses datasets são baixados automaticamente n
  - Instalar versão CUDA do PyTorch.
  - Verificar compatibilidade entre versões do PyTorch, PyG e CU
 A partir desse momento é possível apenas baixar o arquivo .py ou .ipynb no collab e rodar na sua IDE.
+
+# Possíveis melhorias
+Testar com outros datasets (ex: Alzheimer, TDAH)
+Explorar outras arquiteturas: GAT, GIN, GraphSAGE
+Aumentar número de amostras com data augmentation
+
