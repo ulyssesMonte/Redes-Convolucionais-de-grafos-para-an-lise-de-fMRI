@@ -5,15 +5,15 @@ Adaptado por Nathan Gonçalves e Ulysses Monte para o Trabalho final da discipli
 Professor Sérgio Nery;
 IFES 2025.1 BSI.
 
-#Como executar
+# Como executar
 Este repositório pode ser executado normalmente em ordem no próprio Google Collab
 Provavelmente para executar a Seção Bônus você deve assinar o Collab Pro, mas fica a seu critério baixar e rodar na sua própria máquina
 
-#Objetivo Geral
+# Objetivo Geral
 *Do projeto* : Desenvolver conceitos aprendidos na disciplina em um projeto real com o auxílio de um Paper já completo e publicado, com dataset disponível.
 *Do Sistema* : Treinar uma Rede neural para reconhecer padrôes observados no funcionamento do cérebro humano via Ressonância magnética funcional e aprender a diferenciar se cperebro é de um adulto ou de uma criança, a partir do momento que o modelo está pronto ele deve acusar se um determinado indivíduo é adulto ou criança.
 
-#Tecnologias utilizadas
+# Tecnologias utilizadas
 O projeto foi contruído no google collab como um arquivo Jupiter Python;
 Utiliza majoritariamente funções das bibliotecas:
  - PyTorch Geometric (com alguumas extensões);
@@ -24,9 +24,9 @@ Utiliza majoritariamente funções das bibliotecas:
  - TQDM;
  - Pandas.
 
-#Princi
+#Principais funcionalidades
 
-#Requisitos e instruções 
+# Requisitos e instruções 
 *1. Versão do Python*
   Recomendado: Python >= 3.8 (algumas bibliotecas podem não funcionar com versões mais antigas)
 *2. Bibliotecas Necessárias*
@@ -45,10 +45,10 @@ Utiliza majoritariamente funções das bibliotecas:
 *3. Instalação das Dependências*
 Você pode instalar as dependências com os seguintes comandos:
 '''  # Instale o PyTorch conforme sua GPU/CPU:
-  # Para CPU:
+  #Para CPU:
   pip install torch torchvision torchaudio
-  # Para GPU (CUDA compatível), siga instruções em: https://pytorch.org/get-started/locally/ 
-  # Instale outras bibliotecas
+  #Para GPU (CUDA compatível), siga instruções em: https://pytorch.org/get-started/locally/ 
+  #Instale outras bibliotecas
   pip install numpy matplotlib tqdm nilearn networkx pandas scikit-learn scipy
   #A instalação do torch-geometric requer versões compatíveis com o PyTorch instalado. 
   pip install torch-geometric'''
