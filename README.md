@@ -69,13 +69,13 @@ Tome cuidado com qualqer redundância ou adapte o código.
  - Dados Neuroimaging
 O código usa nilearn e um atlas. Esses datasets são baixados automaticamente na primeira execução, portanto exigem conexão com internet.
 <br/><br/>*5. Compatibilidade com GPU (Opcional)*
- - Ter uma placa NVIDIA compatível com CUDA.
- - Instalar versão CUDA do PyTorch.
- - Verificar compatibilidade entre versões do PyTorch, PyG e CU
-A partir desse momento é possível apenas baixar o arquivo .py ou .ipynb no collab e rodar na sua IDE.
+ - Ter uma placa NVIDIA compatível com CUDA;
+ - Instalar versão CUDA do PyTorch;
+ - Verificar compatibilidade entre versões do PyTorch, PyG e CU.
+<br/>A partir desse momento é possível apenas baixar o arquivo .py ou .ipynb no collab e rodar na sua IDE.
 
 # Possíveis melhorias
-Testar com outros datasets (ex: Alzheimer, TDAH)
-Explorar outras arquiteturas: GAT, GIN, GraphSAGE
-Aumentar número de amostras com data augmentation
+ - Testar com outros datasets (ex: Alzheimer, TDAH);
+ - Explorar outras arquiteturas: GAT, GIN, GraphSAGE;
+ - Aumentar número de amostras com data augmentation.
 
