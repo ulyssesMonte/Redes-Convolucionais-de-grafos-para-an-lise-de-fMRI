@@ -26,7 +26,7 @@ Utiliza majoritariamente funções das bibliotecas:
 
 # Principal funcionalidade
 Fazer a leitura de dados referentes as atividades cerebrais de alguém e a partir disso montar um grafo
-<img width="138" height="67" alt="image" src="https://github.com/user-attachments/assets/94cf2977-7081-425a-b8e8-9688ac3e31ab" /> -> <img width="118" height="166" alt="image" src="https://github.com/user-attachments/assets/54bb5d55-4f8a-43b7-b129-db4aee200221" /><br/>
+<br/><img width="138" height="67" alt="image" src="https://github.com/user-attachments/assets/94cf2977-7081-425a-b8e8-9688ac3e31ab" /> -> <img width="118" height="166" alt="image" src="https://github.com/user-attachments/assets/54bb5d55-4f8a-43b7-b129-db4aee200221" /><br/>
 então percorrer esse grafo com uma GNN e deficir se o cérebro pertence a um adulto ou uma criança
 
 
