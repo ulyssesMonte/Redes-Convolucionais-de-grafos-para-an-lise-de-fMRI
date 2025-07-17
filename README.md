@@ -49,7 +49,7 @@ então percorrer esse grafo com uma GNN e deficir se o cérebro pertence a um ad
  - scipy >=1.7 Usado pelo Nilearn
 *3. Instalação das Dependências*
 Você pode instalar as dependências com os seguintes comandos:
-'''  # Instale o PyTorch conforme sua GPU/CPU:
+  #Instale o PyTorch conforme sua GPU/CPU:
   #Para CPU:
   pip install torch torchvision torchaudio
   #Para GPU (CUDA compatível), siga instruções em: https://pytorch.org/get-started/locally/ 
@@ -57,7 +57,7 @@ Você pode instalar as dependências com os seguintes comandos:
   pip install numpy matplotlib tqdm nilearn networkx pandas scikit-learn scipy
   #A instalação do torch-geometric requer versões compatíveis com o PyTorch instalado. 
   pip install torch-geometric'''
-*4. Outras Considerações*
+* 4. Outras Considerações*
  - O código terá uma estrutura de pastas assim:
 dataset/
 ├── corr_matrices/
